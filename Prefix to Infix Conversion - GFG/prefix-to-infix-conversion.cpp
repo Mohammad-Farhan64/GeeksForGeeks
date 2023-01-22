@@ -44,12 +44,8 @@ class Solution {
             }
         }
         
-        while(!st.empty())
-        {
-            res += st.top();
-            st.pop();
-        }
-        return res;
+        
+        return st.top();
     }
     string preToInfix(string pre_exp) {
         // Write your code here
